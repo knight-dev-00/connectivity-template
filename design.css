@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+/*Upper Section*/
+header .container {
+  background-image: url("images/main-bg.jpg");
+  padding-bottom: 50px;
+}
+
+/*Nav Bar*/
+header {
+  display: flex;
+  align-items: center;
+  max-width: 1120px;
+  margin: auto;
+  height: 150px;
+}
+
+div.logo {
+  width: 50%;
+}
+
+div.nav-bar {
+  width: 50%;
+}
+
+.logo h1 {
+  margin-bottom: 0;
+  font-size: 44px;
+  color: white;
+  font-weight: normal;
+  letter-spacing: -2px;
+}
+
+.logo h5 {
+  margin-top: -10px;
+  color: rgb(213, 128,111);
+}
+
+.logo h4 a {
+  text-decoration-line: underline;
+}
+
+.logo h4 a:hover {
+  text-decoration-line: none;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  align-items: stretch;
+  gap: 1px;
+  height: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  flex-grow: 1;
+}
+
+.nav-bar a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+  font: 300 16px 'Oswald', sans-serif;
+  line-height: 2em;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.nav-bar a:hover {
+  background-color: #A0190A;
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+.nav-bar li:first-child a {
+  background-color: #A0190A;
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+.container .img {
+  max-width: 1120px;
+  border: 20px solid white;
+  margin: auto;
+}
+
+.container .img img {
+  margin-bottom: -3px;
+}
+
+/*Mid Section*/
+.mid-section {
+  display: flex;
+  width: 1120px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.aside {
+  width: 25%;
+}
+
+.main-part {
+  width: 75%;
+}
+
+.aside h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+
+.aside ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.aside li {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  border-top: 1px dashed #C0AFA8;
+}
+
+.aside a {
+  text-decoration-line: none;
+  color: #9E8076;
+}
+
+.aside li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.aside a:hover {
+  text-decoration-line: underline;
+  color: #6B6B6B;
+}
+
+.mid-section button {
+  background-color: #36332e;
+  width: 150px;
+  height: 2.5em;
+  border-radius: 5px;
+  border: 0;
+  font: 300 16px 'Oswald', sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+
+.main-part {
+  padding-left: 25px;
+}
+
+.introduction h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+.introduction p {
+  color: #8F8F8F;
+  line-height: 1.8em;
+  margin: 0;
+}
+
+.introduction a {
+  text-decoration: underline;
+  color: #5C5539;
+}
+
+.introduction a:hover {
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.info .img {
+  width: 25%;
+}
+
+.info .description {
+  width: 75%;
+  padding-left: 25px;
+  color: #8F8F8F;
+  line-height: 1.8em;
+  margin: 0;
+}
+
+/*Last Section*/
+.links {
+  background-color: #E5E0DD;
+}
+
+.links .container {
+  max-width: 1200px;
+  padding-top: 30px;
+  margin: auto;
+  display: flex;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.links h3 {
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px white;
+  letter-spacing: -1px;
+}
+
+.links ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.links li {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  border-top: 1px dashed #C0AFA8;
+}
+
+.links a {
+  text-decoration-line: none;
+  color: #9E8076;
+  text-shadow: 2px 2px 1px white;
+}
+
+.links li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.links a:hover {
+  text-decoration-line: underline;
+  color: #6B6B6B;
+}
+
+footer {
+  background-image: url('images/main-bg.jpg');
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+footer div {
+  display: block;
+  max-width: 1200px;
+  width: 1200px;
+  margin: auto;
+}
+
+footer h4 {
+  color: #C5351E;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
